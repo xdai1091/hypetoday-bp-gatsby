@@ -1,0 +1,14 @@
+.container {
+  margin: auto;
+  font-size:x-large;
+  color: white;
+  background-color: black;
+}
+
+.title {
+  font-weight: bold
+}
+
+.subTitle {
+  font-size: 70px;
+}

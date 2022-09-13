@@ -1,5 +1,5 @@
 {
-  "name": "my-gatsby-site",
+  "name": "hypetoday-bp",
   "version": "1.0.0",
   "private": true,
   "description": "My Gatsby Site",
@@ -15,8 +15,10 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/open-sans": "^4.5.11",
     "gatsby": "^3.6.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "reactide-config": "^1.0.2"
   }
 }

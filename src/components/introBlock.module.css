@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  font-size: larger;
+  align-items: baseline
+}
+
+.subtitle {
+  display: flex;
+  flex-direction:column;
+  width: 20%;
+}
