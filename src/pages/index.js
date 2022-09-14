@@ -18,13 +18,13 @@ const IndexPage = () => {
       <Layout pageTitle="HYPETODAY" />
 
 
-      <IntroBlock title="中文版本" date="2021年五月">
+      <IntroBlock title="中文版本" date="2021年五月" fileName="chinese.pdf">
         Hypetoday为运动领队提供技术支持与服务 <br />一、完美的客户体验<br />二、实时的流量分析<br />三、机器学习赋能<br />四、提高品牌知名度
       </IntroBlock>
 
       <div style={{ marginTop: "50px" }}></div>
 
-      <IntroBlock title="English Version" date="February,2022"><p> We are looking to be the Shopify of the fitness leader industry by providing: <br /> 1. Seamless Customer Experience <br /> 2. Real-time Traffic Analysis <br /> 3. Leverage Machine Learning <br /> 4. Boost Reputation and Brand Recognition</p>
+      <IntroBlock title="English Version" date="February,2022" fileName="english.pdf"><p> We are looking to be the Shopify of the fitness leader industry by providing: <br /> 1. Seamless Customer Experience <br /> 2. Real-time Traffic Analysis <br /> 3. Leverage Machine Learning <br /> 4. Boost Reputation and Brand Recognition</p>
       </IntroBlock>
 
 
