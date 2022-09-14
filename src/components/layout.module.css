@@ -1,3 +1,22 @@
+@media (max-width:900px) {
+.container {
+  margin: auto;
+  color: white;
+  background-color: black;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2vw
+}
+
+.subTitle {
+  font-size: 8vw;
+}
+}
+
+@media (min-width:901px) {
+
 .container {
   margin: auto;
   font-size:x-large;
@@ -11,4 +30,6 @@
 
 .subTitle {
   font-size: 70px;
+}
+
 }

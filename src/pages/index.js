@@ -2,17 +2,17 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import IntroBlock from '../components/introBlock'
+import {bottomBlock} from '../components/index.module.css'
 
 // Step 2: Define your component
 const IndexPage = () => {
   return (
     <div style={{
-      backgroundColor: 'black',
+      backgroundColor:'black',
       color: "white",
       height: "100%",
       width: "100%",
-      position: "relative",
-      margin: '50px'
+      position: "relative"
     }}>
 
       <Layout pageTitle="HYPETODAY" />
@@ -28,15 +28,7 @@ const IndexPage = () => {
       </IntroBlock>
 
 
-      <div style={{
-        bottom: "0",
-        display: "flex",
-        width: "100%",
-        justifyContent: "space-around",
-        position: "relative",
-        fontSize: "large",
-        marginTop:"200px"
-      }}>
+      <div className={bottomBlock}>
         <p>代星驰</p>
         <p>黔ICP备2021002523号</p>
         <p>xingchi.dai@guizhouxy.com</p>

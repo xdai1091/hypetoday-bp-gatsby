@@ -1,3 +1,27 @@
+@media (max-width:900px) {
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-size: 4vw;
+  align-items: baseline
+}
+
+.subtitle {
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  align-items: center
+}
+
+.dateBlock {
+  margin-left:10px
+}
+
+}
+
+@media (min-width:901px) {
+
 .container {
   display: flex;
   font-size: larger;
@@ -8,4 +32,6 @@
   display: flex;
   flex-direction:column;
   width: 20%;
+}
+
 }
